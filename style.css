@@ -245,11 +245,7 @@ footer {
     background: #20ba5a;
     transform: scale(1.1);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
-}
-
-.whatsapp-button svg {
-    width: 32px;
-    height: 32px;
+ 
 }
 
 @media (max-width: 768px) {
@@ -269,16 +265,4 @@ footer {
     .services-grid {
         grid-template-columns: 1fr;
     }
-
-    .whatsapp-button {
-        bottom: 20px;
-        right: 20px;
-        width: 50px;
-        height: 50px;
-    }
-
-    .whatsapp-button svg {
-        width: 28px;
-        height: 28px;
-    }
-}
+ 
