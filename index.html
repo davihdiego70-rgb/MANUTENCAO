@@ -14,6 +14,34 @@
 <!-- Texto exibido na aba do navegador e usado por mecanismos de busca como título da página. -->
 <link rel="stylesheet" href="style.css">
 <!-- Link para o arquivo CSS externo (estilos). Verifique se style.css está no mesmo diretório. -->
+
+<style>
+  /* Estilos para o botão WhatsApp centralizado */
+  .whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    z-index: 1000;
+  }
+
+  .whatsapp-button:hover {
+    background-color: #20BA5A;
+    transform: translate(-50%, 50%) scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  }
+</style>
+
 </head>
 <body>
 <!-- Corpo visível da página onde fica o conteúdo apresentado ao usuário. -->
@@ -61,7 +89,7 @@ Davih Diego Sob Orientação do Prof Java/Prog WEB: Riva Moreira - Escola Estadu
 <!-- Seção inicial com id 'home' e classe para animação (fade-in). -->
 <h2>Bem-vindo!</h2>
 <!-- Subtítulo da seção. -->
-<p>Somos especializados na manutenção e reparo de equipamentos eletrônicos de todos os tipos. Nossa equipe de técnicos qualificados oferece soluções rápidas e eficientes para garantir que s[...[...]
+<p>Somos especializados na manutenção e reparo de equipamentos eletrônicos de todos os tipos. Nossa equipe de técnicos qualificados oferece soluções rápidas e eficientes para garantir que seus equipamentos funcionem perfeitamente.</p>
 <!-- Parágrafo descrevendo serviços. -->
 
 <div class="tips-box">
