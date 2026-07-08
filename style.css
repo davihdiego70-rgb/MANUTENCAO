@@ -245,7 +245,6 @@ footer {
     background: #20ba5a;
     transform: scale(1.1);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
- 
 }
 
 @media (max-width: 768px) {
@@ -265,4 +264,4 @@ footer {
     .services-grid {
         grid-template-columns: 1fr;
     }
- 
+}
