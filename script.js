@@ -40,6 +40,21 @@ function submitForm(event) {
     document.getElementById('contactForm').reset();
 }
 
+// Função para redirecionar ao WhatsApp
+function redirectToWhatsApp() {
+    // Número do WhatsApp (sem espaços, com código do país)
+    const phoneNumber = '5531971060767'; // 55 = Brasil, 31 = DDD, resto = número
+    
+    // Mensagem padrão
+    const message = 'Olá! Gostaria de solicitar um orçamento para manutenção de equipamentos eletrônicos.';
+    
+    // URL do WhatsApp com mensagem pré-preenchida
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    
+    // Redireciona para WhatsApp
+    window.open(whatsappUrl, '_blank');
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Site carregado com sucesso!');
 });
